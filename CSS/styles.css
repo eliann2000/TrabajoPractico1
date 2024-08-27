@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial';
+    background-color: #1A3636;
+    color: #FFFFFF;
+    
+}
+
+section {
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    background-color: #40534C;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
+}
+
+.contenido-principal{
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #1A3636;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
+
+}
+
+.mi-foto {
+    width: 220px;
+    height: 210px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.barra-navegacion {
+    position: fixed;
+    width: 100%;
+    background-color: #677D6A;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.barra-navegacion a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
